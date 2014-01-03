@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Case for Service Location"
-date: 2014-10-10 16:30
+date: 2014-01-03 16:30
 comments: true
 categories: development, PHP, "service location", "dependency injection"
 ---
