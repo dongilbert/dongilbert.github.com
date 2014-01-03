@@ -24,7 +24,7 @@ So in my opinion, you really have three options:
  - Use service location in your application layer.
 
 I think it's time for a code example. Consider the following base controller:
-```php
+<pre class="php">
 namespace App;
 
 class BaseController
@@ -36,9 +36,9 @@ class BaseController
 		$this->locator = $locator;
 	}
 }
-```
+</pre>
 And this user class:
-```php
+<pre class="php">
 namespace App;
 
 class UserController extends BaseController
@@ -79,7 +79,7 @@ class UserController extends BaseController
 		}
 	}
 }
-```
+</pre>
 In the above contrived example, you can see there are different dependencies between the `indexAction` and the `loginAction` methods. The former gets the `db` service from the container in order to pass it into the constructor of the `UserModel` class. In the latter, we see that in this case we only needed to get the input, no need to pass any further dependencies into the domain layer. (The astute will recognize that we are practicing Service Location in the controller, and Dependency Injection in the domain layer.)
 
 It's a very simple example, I know, but I think it gets the point across. Different actions within a controller won't necessarily have the same dependencies, so injecting all possible dependencies quickly becomes an exercise in madness. Given that project scope can and does change, often changing the required dependencies along with it, it is much more simple to use Service Location in your controllers as needed.
