@@ -12,7 +12,7 @@ auto: true
 permalink: /:title
 
 # PERSONALISE ME!
-sitename: DonGilbert
+sitename: DonGilbert - Tech, PHP and Joomla
 # Replace these details with your own (You can remove everything beginning name: if you don't use them)
 author :
  name: Don Gilbert
