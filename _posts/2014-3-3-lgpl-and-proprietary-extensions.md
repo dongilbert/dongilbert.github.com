@@ -3,7 +3,7 @@ layout: post
 title: "An LGPL Framework and Proprietary Extensions"
 date: 2014-03-13 12:40
 comments: true
-categories: "joomla framework", lgpl
+categories: joomla, lgpl
 ---
 
 The question of proprietary extensions is a topic continuously used to take this thread off topic. But, since it keeps coming up, I'll try to address it here once and for all, but probably do a poor job of it in someone's estimation, for sure.
