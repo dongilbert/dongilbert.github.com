@@ -31,11 +31,13 @@ A program is free software if the program's users have the four essential freedo
 
 All 4 freedoms are kept in tact by a license change to LGPL v2.1+.
 
-Richard Stallman wrote a great post on "Why you shouldn't use the Lesser GPL for your next library", linked here: https://www.gnu.org/philosophy/why-not-lgpl.html Brian Teeman already alluded to this post, even though he ignored the strongest argument [i]for[/i] the LGPL that is stated therein.
+Richard Stallman wrote a great post on ["Why you shouldn't use the Lesser GPL for your next library"](https://www.gnu.org/philosophy/why-not-lgpl.html). Brian Teeman already alluded to this post, even though he ignored the strongest argument <i>for</i> the LGPL that is stated therein.
 
-<blockquote>Using the ordinary GPL is not advantageous for every library. There are reasons that can make it better to use the Lesser GPL in certain cases. The most common case is when a free library's features are readily available for proprietary software through other alternative libraries. In that case, the library cannot give free software any particular advantage, so it is better to use the Lesser GPL for that library.</blockquote>
+<blockquote>
+Using the ordinary GPL is not advantageous for every library. There are reasons that can make it better to use the Lesser GPL in certain cases. The most common case is when a free library's features are readily available for proprietary software through other alternative libraries. In that case, the library cannot give free software any particular advantage, so it is better to use the Lesser GPL for that library.
 
-This is why we used the Lesser GPL for the GNU C library. After all, there are plenty of other C libraries; using the GPL for ours would have driven proprietary software developers to use another—no problem for them, only for us.[/quote]
+This is why we used the Lesser GPL for the GNU C library. After all, there are plenty of other C libraries; using the GPL for ours would have driven proprietary software developers to use another—no problem for them, only for us.
+</blockquote>
 
 The second sentence states that it would be advantageous for a library to use the LGPL when a free library's features are readily available through alternative libraries. This, in my opinion, is the strongest argument for the LGPL. Nothing in the Joomla Framework is unique. It is a set of building block libraries, whose functionality is readily available in alternative libraries. What differs in the Framework is the implementation of that functionality in ways that makes sense to the contributors. This however doesn't suggest uniqueness, but rather an alternative implementation for the same functionality.
 
