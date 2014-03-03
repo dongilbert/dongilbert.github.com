@@ -36,6 +36,7 @@ Richard Stallman wrote a great post on ["Why you shouldn't use the Lesser GPL fo
 <blockquote>
 Using the ordinary GPL is not advantageous for every library. There are reasons that can make it better to use the Lesser GPL in certain cases. The most common case is when a free library's features are readily available for proprietary software through other alternative libraries. In that case, the library cannot give free software any particular advantage, so it is better to use the Lesser GPL for that library.
 
+
 This is why we used the Lesser GPL for the GNU C library. After all, there are plenty of other C libraries; using the GPL for ours would have driven proprietary software developers to use another—no problem for them, only for us.
 </blockquote>
 
