@@ -41,7 +41,7 @@ The second sentence states that it would be advantageous for a library to use th
 
 Stallman goes on to state in the second quoted paragraph that using the GPL for a library whose features are readily available in an alternative can actually hurt that library. Using the GPL for the Framework will drive proprietary software developers to use another - no problem for them, only for us.
 
-Where Stallman's "why not the LGPL" argument breaks down is when he turns it from a technical argument into a religious one. His last paragraph (that Brian quoted) starts with [quote]But we should not listen to these temptations[/quote]. The only other place you read such warnings against evil is in religious texts, as when the serpent beguiled Eve, or when in the Psalms David is writing his son to be wary of "the strange women".  However, this is <b>not</b> a religious debate, but a technical one.
+Where Stallman's "why not the LGPL" argument breaks down is when he turns it from a technical argument into a religious one. His last paragraph (that Brian quoted) starts with <blockquote>But we should not listen to these temptations</blockquote>. The only other place you read such warnings against evil is in religious texts, as when the serpent beguiled Eve, or when in the Psalms David is writing his son to be wary of "the strange women".  However, this is <b>not</b> a religious debate, but a technical one.
 
 <b>tl;dr;</b>
 Based on the technical merits of the LGPL v2.1+, the fact that it respects the 4 freedoms, as well as the support of those who actually wrote the code for the Framework, I feel we would be remiss to not take action and approve the request.
