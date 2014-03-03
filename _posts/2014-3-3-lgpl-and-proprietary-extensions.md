@@ -32,6 +32,6 @@ This option is useful when you wish to copy part of the code of the Library into
 
 In the discussions, the question was raised "what happens when the Framework is included in the CMS? how does that effect the CMS?", and the agreed upon answer was that the Framework, when distributed with the CMS, would be under the GPL license in accordance with section 3 of the LGPL v2.1 license.
 
-So, even if you went through all the trouble of doing everything yourself to write an extension, but based your code on the Framework, your extension would still have to be GPL, because the Framework, when taken with the CMS [i]is[/i] GPL, in accordance with the license.
+So, even if you went through all the trouble of doing everything yourself to write an extension, but based your code on the Framework, your extension would still have to be GPL, because the Framework, when taken with the CMS <i>is</i> GPL, in accordance with the license.
 
 I sincerely hope we can now put this specific off-topic topic to rest.
