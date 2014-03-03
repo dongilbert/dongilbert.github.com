@@ -6,7 +6,7 @@ comments: true
 categories: joomla, lgpl
 ---
 
-The question of proprietary extensions is a topic continuously used to take this thread off topic. But, since it keeps coming up, I'll try to address it here once and for all, but probably do a poor job of it in someone's estimation, for sure.
+The question of proprietary extensions is a topic continuously used to take the LGPL discussion off topic. But, since it keeps coming up, I'll try to address it here once and for all, but probably do a poor job of it in someone's estimation, for sure.
 
 An LGPL Framework does not open the door to proprietary extensions any more than it is already open today. Today, if you want to legally create a proprietary extension (for this example we'll assume you want to create a proprietary component), you must do all the work yourself. All the minutiae of an extension, from Controller dispatching and event handling, CMS menu integration, view handling, output, model access, etc. You must do all of that yourself and not depend on any of the CMS implementations that make writing an extension easy. This is already possible today. The only requirement on you to have a component (at this point) is to have a component entry point file with the same name as your component. So if you're building com_licenses, you must have a licenses.php file in your component folder, located at `JPATH_ROOT . '/components/com_licenses/licenses.php';`. The CMS includes that file, it gets executed, and any data returned gets put in the `<jdoc:include type="component" />` block within your template index.php (or error.php, if you messed up). A GPL codebase which simply includes (in the sense of a PHP include, not meaning distributed with) does not infect that file with it's license. 
 
