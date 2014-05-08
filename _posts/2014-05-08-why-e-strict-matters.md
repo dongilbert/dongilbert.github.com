@@ -22,7 +22,7 @@ Well there's actually good reasons to take care of all `E_STRICT` errors that yo
 should even take care of the ones you don't see, hidden ones that only get logged to your `error_log` file.)
 The major benefit that I'll focus on today is "forward compatibility".
 
-=== Forward Compatibility ===
+### Forward Compatibility
 
 Fixing any `E_STRICT` errors helps make your code forward compatible. We've all heard that large projects
 should worry about keeping their code "backward compatible" so that others who use it and depend on it don't
@@ -43,7 +43,7 @@ For example, you've probably seen the following error before on your site:
 
 > Error: Declaration of YourCustomClass::store() should be compatible with that of ConcreteClassYourExtending::store($updateNulls = false)
 
-What this means is that when you were writing your code, you didn't match the [_method signature_] [1] in your
+What this means is that when you were writing your code, you didn't match the [_method signature_] [2] in your
 custom class with that of the parent class. The reason this is a problem is that your custom class becomes
 very narrowly focused and is not able to be reused in other places where a class that extended the parent
 class would be able to be used.
@@ -51,7 +51,7 @@ class would be able to be used.
 Furthermore, it prevents progress in the code at the architecture level. As we've already learned, when you
 extend a base class and don't match the signature, it's "just an `E_STRICT`" error; application execution
 doesn't stop. However, if you wanted to start improving application architecture by starting to
-[_program to an interface_] [2], not following method signature can now throw a fatal error. Consider the 
+[_program to an interface_] [3], not following method signature can now throw a fatal error. Consider the 
 following code.
 
 ```php
