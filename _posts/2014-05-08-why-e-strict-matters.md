@@ -43,7 +43,7 @@ For example, you've probably seen the following error before on your site:
 
 > Error: Declaration of YourCustomClass::store() should be compatible with that of ConcreteClassYourExtending::store($updateNulls = false)
 
-What this means is that when you were writing your code, you didn't match the [_method signature_] [2] in your
+What this means is that when you were writing your code, you didn't match the [_method signature_] [^2] in your
 custom class with that of the parent class. The reason this is a problem is that your custom class becomes
 very narrowly focused and is not able to be reused in other places where a class that extended the parent
 class would be able to be used.
@@ -110,7 +110,7 @@ All of that could have been avoided if you just fixed the `E_STRICT` error, but 
 Forward compatibility is worth a 2 min code change, don't you think?
 
 [1]: http://www.php.net/manual/en/errorfunc.constants.php "Predefined Error Constants" 
-[2]: Method Signature: A method's signature is the type and number of arguments that are set in the method
+[^2]: Method Signature: A method's signature is the type and number of arguments that are set in the method
 declaration. Think of it as the fingerprint of the method. It's always the same, and extending classes
 should keep it the same as well.
 [3]: http://www.php5dp.com/design-pattern-principles-for-php-program-to-an-interface-not-an-implementation/ "Program to an Interface, not an implementation"
