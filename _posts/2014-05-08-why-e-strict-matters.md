@@ -15,8 +15,8 @@ that important by saying that `E_STRICT` errors are:
 
 > suggest[ed] changes to your code which will ensure the best interoperability and forward compatibility
 
-If it's just a suggestion, who's to say PHP is right? I mean I know my code and it's purposes better than
-the PHP parser - why should I take it's advice?
+If it's just a suggestion, who's to say PHP is right? I mean I know my code and its purposes better than
+the PHP parser - why should I take the advice?
 
 Well there's actually good reasons to take care of all `E_STRICT` errors that you see on your site. (You
 should even take care of the ones you don't see, hidden ones that only get logged to your `error_log` file.)
@@ -28,7 +28,7 @@ Fixing any `E_STRICT` errors helps make your code forward compatible. We've all 
 should worry about keeping their code "backward compatible" so that others who use it and depend on it don't
 have a hard time keeping up with the breaking changes, but what is this about forward compatibility?
 
-In it's simplest form, forward compatible code is ready to do it's best to take on the future, whatever may
+In its simplest form, forward compatible code is ready to do its best to take on the future, whatever may
 happen. It's being proactive about your code and staying on top of changes in upcoming releases. It's making
 sure you're following best practices and suggestions in order to protect yourself from potential backward
 compatibility issues. It's taking the information you have available and writing your best code with it in
