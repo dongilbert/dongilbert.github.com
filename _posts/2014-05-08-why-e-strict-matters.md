@@ -41,7 +41,7 @@ as useless suggestions.
 
 For example, you've probably seen the following error before on your site:
 
-> Error: Declaration of YourCustomClass::store() should be compatible with that of ConcreteClassYourExtending::store($updateNulls = false)
+> Error: Declaration of YourCustomClass::store() should be compatible with that of ConcreteClassYouAreExtending::store($updateNulls = false)
 
 What this means is that when you were writing your code, you didn't match the _method signature_ [^2] in your
 custom class with that of the parent class. The reason this is a problem is that your custom class becomes
